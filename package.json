@@ -1,0 +1,13 @@
+{
+  "name": "dasherjs",
+  "version": "0.0.1",
+  "description": "Small framework for nodejs",
+  "main": "dist/dasher.js",
+  "repository": "git@github.com:sh33dafi/dasherjs.git",
+  "author": "Yannick Houbrix <yannick.houbrix+github@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "semantic-release": "^12.2.5"
+  }
+}
