@@ -1,0 +1,20 @@
+{
+  "name": "dasherjs",
+  "version": "0.0.1",
+  "description": "Small framework for nodejs",
+  "repository": "git@github.com:sh33dafi/dasherjs.git",
+  "author": "Yannick Houbrix <yannick.houbrix+github@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "main": "dist/es5-bundle.js",
+  "ts:main": "src/index.ts",
+  "typings": "src/index.ts",
+  "dependencies": {
+    "injection-js": "^2.2.1",
+    "reflect-metadata": "^0.1.12"
+  },
+  "scripts": {
+    "test": "echo 'test'"
+  }
+}
