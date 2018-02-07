@@ -1,4 +1,5 @@
 import {ApplicationContext} from './ApplicationContext';
+import {ProviderRegistry} from './ProviderRegistry';
 
 export function Provider() {
     return (target, key, descriptor) => {
@@ -17,4 +18,4 @@ export function Providers() {
     }
 }
 
-const registerProvider = (provider) => ApplicationContext.instance().register(provider);
+const registerProvider = (provider) => ProviderRegistry.instance().register(provider);
